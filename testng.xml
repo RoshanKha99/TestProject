@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test thread-count="2" name="Test">
+  <!-- <parameter name="browser" value="edge"></parameter>
+    <groups>
+      <define name="daily_build">
+        <include name="sanity"/>
+        <include name="smoke"/>
+      </define>
+      <define name="weekly_build">
+        <include name="sanity"/>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </define>
+    </groups> -->
+    <classes>
+    <!--   <class name="TestingNg.Enable"/>
+      <class name="TestingNG.Priority"/>
+     
+      <class name="TestingNg.Grouping"/> -->
+      <class name="TestingNG.InvokeChromeBrowser"/>
+         <class name="TestingNG.InvokeEdgeBrowser"/>
+           <class name="TestingNG.ListenerTestClass"/>
+            <class name="TestingNG.Firefox"/>
+      
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
