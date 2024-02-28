@@ -18,6 +18,6 @@ package TestingNG;
 
 				WebDriver driver = new FirefoxDriver();
 				
-				driver.get("https://www.seleniu.dev/");
+				driver.get("https://www.selenium.dev/");
 				
 }}
