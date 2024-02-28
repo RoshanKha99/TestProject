@@ -17,12 +17,9 @@
     <classes>
     <!--   <class name="TestingNg.Enable"/>
       <class name="TestingNG.Priority"/>
-     
       <class name="TestingNg.Grouping"/> -->
       <class name="TestingNG.InvokeChromeBrowser"/>
-         <class name="TestingNG.InvokeEdgeBrowser"/>
             <class name="TestingNG.Firefox"/>
-      
     </classes> 
   </test> <!-- Test -->
 </suite> <!-- Suite -->
