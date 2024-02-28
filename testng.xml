@@ -21,7 +21,6 @@
       <class name="TestingNg.Grouping"/> -->
       <class name="TestingNG.InvokeChromeBrowser"/>
          <class name="TestingNG.InvokeEdgeBrowser"/>
-           <class name="TestingNG.ListenerTestClass"/>
             <class name="TestingNG.Firefox"/>
       
     </classes> 
